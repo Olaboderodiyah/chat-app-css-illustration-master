@@ -1,0 +1,250 @@
+ *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+ }
+
+ body{
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    background-color: hsl(278, 20%, 96%);
+ }
+
+ section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .call{
+    width: 65%;
+    padding: 3%;
+    border-radius: 20px;
+    background-color: white;
+ }
+
+ .chatapp{
+    background-color:hsl(278, 20%, 96%) ;
+    border-radius:20px ;
+    color: grey;
+ }
+
+ .text{
+    /* background-image:linear-gradient(to right, hsl(264, 100%, 61%) , hsl(293, 100%, 63%)) ; */
+    border-radius: 20px 20px 10px 10px;
+ }
+
+ .phone{
+    text-align: center;
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    height: 20px;
+    border-radius: 0px 0px 15px 15px ;
+ }
+
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: hsl(264, 100%, 61%),;
+    
+    
+}
+.header1 img{
+    border-radius: 20px;
+    border: 2px solid white;
+    width: 25px;
+    /* justify-content: space-evenly; */
+}
+
+.header1{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    justify-content: space-evenly;
+    background-color: hsl(264, 100%, 61%);
+}
+
+
+.context{
+    background-color: hsl(264, 100%, 61%);
+}
+
+.context p{
+    font-size: 10px;
+    color: hsl(278, 20%, 96%);
+}
+
+.threedots{
+    margin-right: 5%;
+}
+
+.leftmag{
+    width: 60%;
+    font-size: 10px;
+    margin-top: 4%;
+    margin-left: 2%;
+    padding: 3%;
+    border-radius: 10px;
+    background-color: lightgray;
+    color:hsl(264, 100%, 61%);
+}
+
+.rightmag{
+    width: 60%;
+    font-size: 10px;
+    margin-top: 4%;
+    margin-right: 2%;
+    padding: 3%;
+    border-radius: 10px;
+    background-color: white;
+    color:black;
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.images{
+    margin-top: 4%;
+    margin-right: 2%;
+}
+
+.images img{
+    border-radius: 10px;
+    width: 55px;
+    padding: 5px;
+    font-size: 10px;
+    background-image: linear-gradient(to left, hsl(264, 100%, 61%), hsl(293,100%,63%)); 
+
+}
+
+.currency{
+    padding: 5px;
+    font-size: 10px;
+    background-image: linear-gradient(to left, hsl(264, 100%, 61%), hsl(293,100%,63%));
+    color: white;
+    margin-top: 4%;
+    margin-left: 2%;
+    width: 65%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.currency p{
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.message{
+    display: flex;
+    justify-content: center;
+}
+
+.send{
+    background-color: white;
+    margin-top: 7%;
+    padding: 2%;
+    margin-bottom: 3%;
+    width: 90%;
+    border-radius: 30px;
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+
+}
+
+.angleright{
+    background-color: purple;
+    border-radius: 100px;
+    width: 9%;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.facts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.facts h2{
+    font-size: 40px;
+}
+
+.facts p{
+    width: 80%;
+    margin-top: 3%;
+    color: gray;
+}
+
+.color{
+    width: 50%;
+    height: 50vh;
+    background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%,61%));
+    position: absolute;
+    border-radius: 0px 0px 1000px;
+    z-index: -1;
+}
+
+.textutre{
+    padding: 5px;
+    font-size: 10px;
+    background-image: rgba(248, 234,234, 0.582); 
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 1000px 0px 0px;
+    z-index: -1;
+
+}
+
+@media screen and (min-width:900px) {
+    section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .call{
+        width: 25%;
+        padding: 5%;
+    }
+    
+    .facts{
+        width: 35%;
+        text-align: left;
+        align-items: flex-start;
+        /* border-radius: 0px 0px 1000px 1000px; */
+        margin-left: 10%;
+    }
+
+    .color{
+        width:30% ;
+        height: 80vh;
+        border-radius: 0px 0px 1000px 1000px ;
+    }
+
+    .texture{
+        width:30% ;
+        height: 80vh;
+        border-radius: 1000px 55px 0px 0px ;
+    }
+} 
